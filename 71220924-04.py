@@ -1,4 +1,7 @@
 def hitung_nilai_akhir(daftar_nilai):
+    wasta =[]
+    daftar_wasta = sorted(daftar_nilai)
+    daftar_nilai = {key:daftar_nilai[key] for key in daftar_wasta}
     for nama in daftar_nilai:
         list_nilai = []
 
