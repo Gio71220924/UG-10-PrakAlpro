@@ -10,5 +10,5 @@ def total_tanpa_tigabelas (list_angka):
                 break
         return total
 
-print(total_tanpa_tigabelas([2, 4, 1, 3, 13, 8]))
 print(total_tanpa_tigabelas([1, 2, 2, 1]))
+print(total_tanpa_tigabelas([2, 4, 1, 3, 13, 8]))
